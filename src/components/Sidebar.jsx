@@ -15,7 +15,7 @@ import MenuBookIcon from "@mui/icons-material/MenuBook";
 const Sidebar = ({ user, onLogout }) => {
     const navigate = useNavigate();
     const location = useLocation();
-    const [collapsed, setCollapsed] = useState(false);
+    const [collapsed, setCollapsed] = useState(true);
 
     const currentUser = useMemo(
         () => ({
